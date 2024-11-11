@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'ksan',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,8 +26,8 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: 'b965b133792eac81bd5b8ed62c50655b', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/1/#inbox',
 		},
 		{
 			id: '3',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'Chatgpt',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://chatgpt.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lofi',
+					link: 'https://youtu.be/I8DxShZV9aU?si=bEEmgV6YTOQfMCRv',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Joji',
+					link: 'https://youtu.be/6CYsvWX6mwk?si=mV4SgajbUhbyRAH7',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Weeknd',
+					link: 'https://youtu.be/WtF8j5Xu9i8?si=705dkhBOsdeuOMP8',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'TylerTheCreator',
+					link: 'https://www.youtube.com/watch?v=Aztdmq1tYY8',
 				},
 			],
 		},
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'My Github',
+					link: 'https://github.com/ksandeleon',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Ongoing Project',
+					link: 'https://github.com/Hirooo17/go_parent',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Game Development',
+					link: 'https://www.youtube.com/@PirateSoftware',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Learn Backend',
+					link: 'https://www.udemy.com/course/python-and-django-for-beginners/learn/lecture/21742450?start=675#overview',
 				},
 			],
 		},
