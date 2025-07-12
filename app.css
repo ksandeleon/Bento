@@ -286,10 +286,13 @@ body {
   grid-column: 3;
 }
 .button:hover {
-  background-color: var(--accent);
+  background-color: var(--cards); /* keep card bg or set to transparent */
+  color: var(--accent);           /* text color to mauve */
 }
-.button:hover svg {
-  stroke: var(--sfg);
+.button:hover svg,
+.button:hover .buttonIcon {
+  color: var(--accent);           /* icon color to mauve */
+  stroke: var(--accent);          /* for SVG icons */
 }
 
 .listsContainer {
@@ -336,8 +339,8 @@ body {
   width: 80%;
 }
 .listItem:hover {
-  background-color: var(--accent);
-  color: var(--sfg);
+  background-color: var(--cards); /* keep card bg or set to transparent */
+  color: var(--accent);           /* text color to mauve */
 }
 
 /* M E D I A - Q U E R I E S */
