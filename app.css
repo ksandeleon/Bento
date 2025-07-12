@@ -37,9 +37,9 @@
   --icon: 3vh;
 
   /* Catppuccin Mocha Colors */
-  --accent: #89b4fa;      /* Blue */
-  --background: #1e1e2e;  /* Base */
-  --cards: #313244;       /* Surface0 */
+  --accent: #cba6f7;      /* Mauve */
+  --background: #181825;  /* Mocha Crust (deep violet) */
+  --cards: #1e1e2e;       /* Mocha Base (dark violet) */
   --fg: #cdd6f4;          /* Text */
   --sfg: #a6adc8;         /* Subtext1 */
 
@@ -53,14 +53,14 @@
 
 .darktheme {
   /* Catppuccin Mocha Dark Colors (same as above for consistency) */
-  --accent: #89b4fa;
-  --background: #1e1e2e;
-  --cards: #313244;
+  --accent: #cba6f7;      /* Mauve */
+  --background: #181825;  /* Mocha Crust */
+  --cards: #1e1e2e;       /* Mocha Base */
   --fg: #cdd6f4;
   --sfg: #a6adc8;
   --imgcol: linear-gradient(
-    rgba(30, 30, 46, 0.85),
-    rgba(30, 30, 46, 0.85)
+    rgba(24, 24, 37, 0.85),
+    rgba(24, 24, 37, 0.85)
   );
 }
 
