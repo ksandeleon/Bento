@@ -27,46 +27,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
 
+/* Catppuccin Mocha Theme Variables */
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
-  --fg-list: 2vh; /* Links List */
-  --icon: 3vh; /* Icon Size */
+  --fg-primary: 12vh;
+  --fg-secondary: 3vh;
+  --fg-date: 8vh;
+  --fg-list: 2vh;
+  --icon: 3vh;
 
-  /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
+  /* Catppuccin Mocha Colors */
+  --accent: #89b4fa;      /* Blue */
+  --background: #1e1e2e;  /* Base */
+  --cards: #313244;       /* Surface0 */
+  --fg: #cdd6f4;          /* Text */
+  --sfg: #a6adc8;         /* Subtext1 */
 
-  /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
-
-  /* Image background  */
-  --imgbg: url(assets/background.jpg); /* Image URL */
+  /* Image background */
+  --imgbg: url(assets/background.jpg);
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  ); /* Filter color */
+    rgba(30, 30, 46, 0.85),
+    rgba(30, 30, 46, 0.85)
+  );
 }
 
 .darktheme {
-  /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
-
-  /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
-
-  /* Image background  */
+  /* Catppuccin Mocha Dark Colors (same as above for consistency) */
+  --accent: #89b4fa;
+  --background: #1e1e2e;
+  --cards: #313244;
+  --fg: #cdd6f4;
+  --sfg: #a6adc8;
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
-  ); /* Filter color */
+    rgba(30, 30, 46, 0.85),
+    rgba(30, 30, 46, 0.85)
+  );
 }
 
 /* S T Y L E S */
